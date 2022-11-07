@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evelyn.evelynaidlserver.MainActivity">
+
+    <Button
+        android:text="getStudentList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:id="@+id/button_aidl"
+        android:onClick="getStudentList"
+        style="@style/Widget.AppCompat.Button" />
+
+    <TextView
+        android:id="@+id/student_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_aidl"
+        android:layout_alignLeft="@+id/button_aidl"
+        android:layout_alignStart="@+id/button_aidl"
+        android:layout_marginTop="46dp"
+        android:text=""/>
+</RelativeLayout>
